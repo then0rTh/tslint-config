@@ -10,7 +10,9 @@ module.exports = {
     ],
     "member-access": [true, "no-public"],
     "member-ordering": [true, {"order": "statics-first"}],
-    "no-unsafe-any": true,
+    "no-unsafe-any": {
+      "severity": "warning",
+    },
     "unified-signatures": {
       "severity": "warning",
     },
@@ -130,7 +132,11 @@ module.exports = {
     "return-undefined": {
       "severity": "warning",
     },
-    "space-before-function-paren": [true, "always"],
+    "space-before-function-paren": [true, {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always",
+    }],
     "space-within-parens": [true, 0],
     "unnecessary-else": {
       "severity": "warning",
