@@ -63,9 +63,6 @@ module.exports = {
       "options": [true, "allow-fast-null-checks", "allow-new"],
       "severity": "warning",
     },
-    "no-unused-variable": {
-      "severity": "warning",
-    },
     "no-var-keyword": true,
     "prefer-object-spread": {
       "severity": "warning",
@@ -76,7 +73,6 @@ module.exports = {
     "static-this": true,
     "strict-type-predicates": true,
     "triple-equals": true,
-    "typeof-compare": true,
     "use-default-type-parameter": {
       "severity": "warning",
     },
@@ -143,7 +139,7 @@ module.exports = {
       "check-format",
       "require-const-for-all-caps",
       "allow-leading-underscore",
-      "allow-trailing-underscore"
+      "allow-trailing-underscore",
       "ban-keywords",
     ],
     ////////////
