@@ -1,0 +1,16 @@
+{
+  "name": "tslint-config-then0rth",
+  "description": "A TSLint config",
+  "version": "0.0.1",
+  "author": "then0rth",
+  "keywords": [
+    "tslint",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "tslint.js",
+  "peerDependencies": {
+    "tslint": "^5.14.0"
+  },
+  "repository": "github:then0rTh/tslint-config"
+}
